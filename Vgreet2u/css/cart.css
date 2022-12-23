@@ -1,0 +1,99 @@
+body{
+background-image:url("../images/6.jpg");
+	background-size:cover;
+font-family:Calibri,sans-serif;
+}
+.message_box .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+h2{
+	color:#000;
+	margin-left:45vw;
+	font-size:35px;
+}
+.cart{
+	border-color:#000;
+	border-width:2px;
+	border-style:solid;
+	padding:20px;
+	background-color: rgba(0,0,0,.5);
+	width:700px;
+	margin :50px auto;
+}
+	.table{
+    margin-left:2vw;
+}
+
+.table td {
+	border-bottom: #000000 1px solid;
+	padding: 20px;
+font-size:20px;
+}
+.cart_div {
+	float:right;
+	font-weight:bold;
+	position:relative;
+	right:23vw;
+	top:4vh;
+	}
+.cart_div a {
+	color:#000;
+	}
+
+.cart_div img{
+	width:42px;
+}
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 25px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+.cart .remove {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	padding:5px;
+	background-color: rgba(0,0,0,.5);
+	border:1px solid #000;
+	border-radius:5px;
+	}
+.dwnld {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0px;
+    text-decoration: none;
+}
+.dwnld:hover {
+	padding:5px;
+	background-color: rgba(0,0,0,.5);
+	border:1px solid #000;
+	border-radius:5px;
+	}
+
+.quantity{
+	border:1px solid #000000;
+	font-size:15px;
+	width:50px;
+	color:whitesmoke;
+	background-color:rgba(0,0,0,.2) ;
+}

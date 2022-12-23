@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Comic-Sans',sans-serif;
+
+}
+
+.bg-modal{
+	width:100%;
+	height:100%;
+  background-image:url("../images/6.jpg");
+  background-size:cover;
+
+	position: fixed;
+	top:0;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal{
+	width:35rem;
+	border-radius: 10px;
+	height:23rem;
+	background-color: rgba(0,0,0,.6);
+	z-index: 2;
+	position:relative;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#log{
+	color:#eb3007;
+	font-size: 50px;
+	padding:20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	position: absolute;
+	bottom:270px;
+	left:65px;
+	font-family: "Calibri";
+	z-index: 3;
+}
+#close{
+	z-index: 3;
+	position: absolute;
+	bottom:310px;
+	left:520px;
+	font-size: 50px;
+	transform: rotate(45deg);
+	color:#eb3007;
+	cursor: pointer;
+}
+#form{
+	font-size: 50px;
+	font-family: "Calibri";
+	color:rgb(166,166,166);
+	
+
+	position:absolute;
+	bottom:290px;
+	left:230px;
+	z-index: 3;
+
+}
+.modal-contents{
+	margin-top:50px;
+	width:30rem;
+	height:14rem;
+	background-color: rgba(0,0,0,.5);
+	opacity:1;
+	position:absolute;
+	border-radius: 4px;
+	text-align: center;
+	padding:20px;
+	border-color: #eb3007;
+	border-width: 4px;
+	border-style: solid;
+	z-index: 2;
+	}
+#uname{
+	width:25rem;
+	height:2rem;
+	text-indent: 10px;
+	background-color:rgb(166,166,166);
+
+	border-style: none;
+	border-width: 2px;
+
+	margin-top: :10px;
+}
+#pwd{
+	width:25rem;
+	height:2rem;
+	text-indent: 10px;
+	background-color: rgb(166,166,166);
+	border-style: none;
+
+	border-width: 2px;
+	margin-top: 10px;
+}
+#login-button{
+	width:7rem;
+	height:2.5rem;
+	text-align:center;
+	font-size: 20px;
+color:rgb(166,166,166);
+	border-width: 2px;
+	border-style: solid;
+	border-color:rgba(0,0,0,0);
+	border-radius: 2px;
+	margin-top: 30px;
+	background-color: #eb4007;
+	position:absolute;
+	left:170px;
+	top:100px;
+	
+	color:white;
+}
+#login-button:hover{
+	opacity:0.8;
+  cursor:pointer;
+}
+
+#signup-link{
+position: absolute;
+	top:180px;
+	left:100px;
+color:rgb(166,166,166);
+}
+
+	#getlink{
+		color:#eb3007;
+	}
+	#getlink:hover{
+		color:#00f0f0;
+	}
+  .help-block{
+    color:#eb3007;
+    
+  }
+
+  @media(max-width:621px){
+  .modal{
+
+  	width:85vw;
+  	}
+  #close{
+  	left:78vw;
+  }
+  .modal-contents{
+  	width:75vw;
+  	}
+  #uname{
+  	width:68vw;
+  }
+  #pwd{
+  	width:68vw;
+  }
+  #login-button{
+  	width:20vw;
+  	left:20vw;
+  }
+  #forget{
+  	width:15vw;
+  	left:42vw;
+  }
+  #signup-link{
+  	left:14vw;
+
+  }
+  }
